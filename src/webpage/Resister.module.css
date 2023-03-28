@@ -17,6 +17,13 @@
     /* font-size: 30px; */
 }
 
+.icons {
+    font-size: 85px;
+    position: fixed;
+    top: 180px;
+    left: 47%;
+}
+
 .button {
     background-color: rgb(91, 80, 21);
     color: white;

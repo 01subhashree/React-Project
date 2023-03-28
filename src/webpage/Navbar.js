@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <>
             <div className={style.wrapper} >
-                <h1 className={style.header}>Your Website</h1>
+                <h1 className={style.header}>Our Website</h1>
                 <div className={style.Links}>
                     <Link  to={'/'}>home</Link>
                     <Link  to={'/login'}>Login</Link>
-                    <Link  to={'/Register'}>Resister</Link>
+                    <Link  to={'/aboutus'}>About Us</Link>
                 </div>
                 <div className={style.icon}>
                 <AiFillSmile />

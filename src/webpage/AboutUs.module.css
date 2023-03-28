@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    overflow: scroll;
+    height: 300px;
+    width: 70%;
+    background-color: rgb(146, 146, 198);
+}
+.box{
+    margin-top: 20px;
+    min-width: 250px;
+    min-height: 270px;
+}
+.Image{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}

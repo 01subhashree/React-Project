@@ -1,15 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { MdAccountCircle } from "react-icons/md";
 import style from './Login.module.css'
 
 
 const Loginpage = () => {
     return (
         <div className={style.wrapper}>
+            <div>
+                <MdAccountCircle className={style.icons} />
+            </div>
             <div className={style.container1}>
                 <div className={style.container2}>
-                    
-                    <input  placeholder="Username" className={style.input}
+
+                    <input placeholder="Username" className={style.input}
                     />
                     <input type="password" placeholder="Password" />
                     <div className={style.box}>
@@ -19,7 +23,6 @@ const Loginpage = () => {
                             <Link to={'/Register'}>Resister</Link>
                         </span>
                     </div>
-                    <Link  to={'/'}>home</Link>
                 </div>
             </div>
         </div>

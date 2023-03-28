@@ -1,10 +1,12 @@
 import React from "react";
-import style from './Resister.module.css'
+import style from './Resister.module.css';
 import { Link } from "react-router-dom";
+import { MdAccountCircle } from "react-icons/md";
 
 const Resister = () => {
     return (
         <div className={style.Box}>
+            <MdAccountCircle className={style.icons} />
             <div className={style.ChildBox}>
                 <div>
                     <input placeholder="Username" className={style.input1} />
@@ -16,9 +18,6 @@ const Resister = () => {
                     <span className={style.Gbox} >
                         <p>Do you have an account ?</p>
                         <Link to={'/login'} style={{ marginTop: "20px" }}>Login</Link>
-                    </span>
-                    <span>
-                        <Link to={'/'}>home</Link>
                     </span>
                 </div>
             </div>
