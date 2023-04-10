@@ -23,7 +23,7 @@ const Table = () => {
             ))}
         </tbody>
       </table>
-      <button onClick={changeNumber}>Generate Number</button>
+      <button className={style.button} onClick={changeNumber}>Generate Number</button>
     </>
   );
 };
