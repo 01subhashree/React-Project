@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRecoilState } from 'recoil';
+import { changeColor } from './atom';
 
 function App() {
+
+  const [atomChangeColor, setAtomChangeColor] = useRecoilState(changeColor)
+
+  const clickhandler = () => {
+    setAtomChangeColor(!atomChangeColor)
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={atomChangeColor ? { color: 'red' } : { color: 'blue' }}>hi, i change the color on click the button</h1>
+      <button onClick={clickhandler}>Change color</button>
     </div>
   );
 }
