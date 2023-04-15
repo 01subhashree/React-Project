@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(189, 220, 220);
+    min-height: 600px;
+    width: 100%;
+}
+.container2{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.wrapper{
+    border: 1px solid;
+    width: 50%; 
+}
+
+.wrapper1{
+    margin: 20px ;
+    
+}
+.wrapper input{
+    display: block;
+    margin-bottom: 10px;
+}
+.wrapper2 {
+    margin-left: 20px;
+}
+.wrapper3{
+    width: 100%;
+    background-color: salmon;
+    margin-top: 40px;
+    min-height: 400px;
+}
+table {
+    border: 2px solid;
+    min-width: 50%;
+}
+td,th {
+    border: 1px solid;
+}
+.Table{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
