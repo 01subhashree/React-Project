@@ -1,0 +1,32 @@
+.container {
+    background-image: url('https://www.secureaplus.com/wp-content/uploads/2016/03/SecureAPlus-HomePage-Background.png');
+    width: 100%;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+}
+
+.Link {
+    color: wheat;
+    font-size: 20px;
+    grid-column: 4;
+    margin-top: 30px;
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 2rem 2fr 3fr 1fr 2rem;
+}
+
+.header{
+    grid-column: 2;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 90px;
+    color: yellow;
+}
