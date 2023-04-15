@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: aquamarine;
+}
+.table{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.container1{
+    
+}
