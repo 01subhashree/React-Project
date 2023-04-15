@@ -1,0 +1,20 @@
+.header1{
+    background-color: rgb(123, 223, 190);
+}
+.header2{
+    background-color: rgb(234, 208, 95);
+}
+.div{
+    background-color: rgb(228, 132, 122);
+}
+
+.table{
+    border: 2px solid;
+    background-color: rgb(201, 255, 119);
+}
+th{
+    border: 1px solid;
+}
+td {
+    border: 1px solid;
+}
