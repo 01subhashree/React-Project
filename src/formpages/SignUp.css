@@ -1,0 +1,18 @@
+.container1{
+    width: 500px;
+    background-color: palevioletred;
+    text-align: center;
+    height: 600px;
+    border-radius: 35px;
+}
+.button1 {
+    background-color: rgb(204, 129, 15);
+    color: black;
+    border-radius: 25px;
+}
+.button2 {
+    background-color: rgb(177, 60, 177);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}

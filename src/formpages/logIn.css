@@ -1,0 +1,19 @@
+.container2 {
+    width: 500px;
+    background-color: #beef00;
+    text-align: center;
+    height: 400px;
+    border-radius: 25px;
+
+}
+
+.btn1 {
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.btn2 {
+    background-color: rgb(168, 82, 115);
+    border-radius: 25px;
+    color: white;
+}
