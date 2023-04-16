@@ -1,18 +1,21 @@
-import { Route, Routes } from "react-router-dom";
-import HomePage from './pages/Homepage'
-import CheckTask from './pages/CheckTask '
+import Reactscroller from './components/Reactscroller.js'
+
 
 
 function App() {
 
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/checktask" element={<CheckTask />} />
-      </Routes>
+      <div className='Header'>
+        <h2>Know your mentors</h2>
+        <p>Mind your mentor's time. Good mentors are successful for a reason: They manage their time wisely, often doing multiple things at any given time in order to ensure success. As a mentee, you must learn to respect your mentor's time.</p>
+      </div>
+      <div className='wrapper'>
+        <Reactscroller />
+      </div>
     </div>
   );
 }
 
 export default App;
+
