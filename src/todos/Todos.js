@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { addTodo, editTodos } from "../redux/todosSlice";
 import { useSelector } from "react-redux";
 import TodoItem from "./TodoItems";
+import style from "./Todos.module.css";
 
 function Todos() {
   const [todo, setTodo] = useState();
@@ -35,7 +36,7 @@ function Todos() {
   return (
     <>
       {isVisible ? (
-        <>
+        <div>
           <input
             type="text"
             placeholder="Enter your text ...."
@@ -43,31 +44,34 @@ function Todos() {
             onChange={(e) => setTodo(e.target.value)}
           />
           <button onClick={updateTodos}>Update</button>
-        </>
+        </div>
       ) : (
-        <>
+        <div>
           <input
+            className={style.input}
             type="text"
             placeholder="Enter your text ...."
             value={todo}
             onChange={(e) => setTodo(e.target.value)}
           />
-          <button onClick={AddTodos}>Add</button>
-          <div>
+          <button className={style.button} onClick={AddTodos}>
+            Add
+          </button>
+          <div className={style.Todo}>
             <ul>
               {todos.map((elem) => (
-                <li key={elem.id}>
+                <div key={elem.id}>
                   <TodoItem
                     id={elem.id}
                     title={elem.title}
                     completed={elem.completed}
                     handleEdit={handleEdit}
                   />
-                </li>
+                </div>
               ))}
             </ul>
           </div>
-        </>
+        </div>
       )}
     </>
   );

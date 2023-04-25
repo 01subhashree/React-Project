@@ -1,0 +1,26 @@
+.input{
+    font-size: 3vh;
+    margin-top: 5vh;
+    margin-right: 3vw;
+    padding: 5px;
+    border-radius: 10px;
+}
+.TodoItems{
+    gap: 3vh;
+    margin-top: 7vh;
+    font-size: 4vh;
+}
+.button{
+    font-size: 3vh;
+    padding: 7px;
+    width: 10vw;
+    border-radius: 20px;
+    background-color: rgba(172, 255, 47, 0.789);
+    color: rgb(20, 12, 1);
+}
+.box{
+    display: flex;
+    gap: 3vh;
+    font-size: 3vh;
+    /* margin-top: 3vh; */
+}

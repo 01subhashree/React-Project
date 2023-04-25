@@ -23,9 +23,9 @@ const todoSlice = createSlice({
     deleteTodo: (state, action) => {
       return state.filter((elem) => elem.id !== action.payload.id);
     },
-    editTodos: (state, action) => {
-      return state.filter((elem) => elem.id === action.payload.id);
-    },
+    // editTodos: (state, action) => {
+    //   return state.filter((elem) => elem.id === action.payload.id);
+    // },
   },
 });
 export const { addTodo, toggleComplete, deleteTodo, editTodos } =
