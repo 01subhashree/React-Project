@@ -11,11 +11,12 @@
     font-size: 4vh;
 }
 .button{
+    
     font-size: 3vh;
     padding: 7px;
     width: 10vw;
     border-radius: 20px;
-    background-color: rgba(172, 255, 47, 0.789);
+    background-color: rgba(172, 255, 47, 0.647);
     color: rgb(20, 12, 1);
 }
 .box{
