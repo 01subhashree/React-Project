@@ -9,7 +9,7 @@ const Buttons = () => {
   };
 
   return (
-    <div>
+    <div className="button">
       {Array.from({ length: 30 }, (_, i) => String.fromCharCode(i + 65)).map(
         (letter) => (
           <button key={letter} onClick={() => handleClick(letter)}>
