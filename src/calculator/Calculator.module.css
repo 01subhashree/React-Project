@@ -10,7 +10,8 @@
     left: 0;
     right: 0;
     margin: auto;
-    border: ridge;    
+    border: ridge; 
+    background-color: aliceblue;
 }
 .CalculatorBtn{
     display: grid;
@@ -35,7 +36,6 @@
     margin: 1vw;
 }
 .zero > .btns {
-    width: 10rem;
-    
+    width: 10rem; 
 }
 
