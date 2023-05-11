@@ -1,0 +1,23 @@
+.css{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(48deg, rgb(190, 110, 189) , rgb(207, 114, 122));
+    width: 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.css h1{
+    margin: 0;
+}
+.button{
+    display: flex;
+    gap: 2rem;
+}
+.button button{
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
