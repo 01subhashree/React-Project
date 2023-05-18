@@ -1,0 +1,27 @@
+.mainDiv{
+    background: linear-gradient(48deg,salmon,rgb(244, 130, 16));
+    width: 50vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 1.5rem 3rem;
+}
+.para{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 2px solid rgb(242, 238, 238);
+    background-color: rgb(110, 50, 84);
+    color: white;
+    position: fixed;
+    margin-top: 13rem;
+}

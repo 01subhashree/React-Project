@@ -1,10 +1,10 @@
 import "./App.css";
-import Temp from "./component/Temp";
+import ShowQuote from "./component/ShowQuote";
 
 function App() {
   return (
     <div className="App">
-      <Temp />
+      <ShowQuote />
     </div>
   );
 }
