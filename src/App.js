@@ -1,10 +1,10 @@
 import "./App.css";
-import ShowQuote from "./component/ShowQuote";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <ShowQuote />
+      <Counter />
     </div>
   );
 }
